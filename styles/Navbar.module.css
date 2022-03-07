@@ -1,7 +1,10 @@
-.navbar {
+.name {
     background-color: #005B8F;
     font-family: 'Cardo', serif;
     color: white;
     padding-left: 20px;
     font-weight: 700;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
