@@ -9,6 +9,7 @@ import club_meeting from "../public/icons/club-meeting.png";
 import other from "../public/icons/other.png";
 import parent_meeting from "../public/icons/parent-meeting.png";
 import restroom from "../public/icons/restroom.png";
+import emergency from "../public/icons/emergency.png";
 
 export default function Home() {
   return (
@@ -39,6 +40,11 @@ export default function Home() {
           icon={parent_meeting}
           label="Parent Meetings"
           link="events/parents"
+        ></IconCard>
+        <IconCard
+          icon={emergency}
+          label="Emergency"
+          link="events/emergency"
         ></IconCard>
         <IconCard icon={other} label="Other" link="events/other"></IconCard>
       </section>
