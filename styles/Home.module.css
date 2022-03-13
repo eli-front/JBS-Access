@@ -17,12 +17,17 @@
   align-items: center;
   margin: 0.5em;
   border: 2px solid black;
-  transition: 0.3s;
   cursor: pointer;
 }
 
 .icon_card:hover {
   border: 2px solid #0099ff;
+  color: #0099ff;
+}
+
+.icon_card:hover img {
+  filter: invert(56%) sepia(69%) saturate(5481%) hue-rotate(183deg)
+    brightness(103%) contrast(103%);
 }
 
 .icon_card * {

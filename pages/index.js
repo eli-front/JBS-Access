@@ -10,6 +10,7 @@ import other from "../public/icons/other.png";
 import parent_meeting from "../public/icons/parent-meeting.png";
 import restroom from "../public/icons/restroom.png";
 import emergency from "../public/icons/emergency.png";
+import counselor from "../public/icons/counselor.png";
 
 export default function Home() {
   return (
@@ -19,6 +20,11 @@ export default function Home() {
           icon={sport}
           label="Sport Events"
           link="events/sports"
+        ></IconCard>
+        <IconCard
+          icon={counselor}
+          label="Contact Counselor"
+          link="contact-counselor"
         ></IconCard>
         <IconCard
           icon={club_meeting}
