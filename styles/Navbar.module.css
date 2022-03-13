@@ -1,10 +1,29 @@
-.name {
+.navbar {
     background-color: #005B8F;
     font-family: 'Cardo', serif;
     color: white;
-    padding-left: 20px;
-    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 20px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarname {
     padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.navbaritem {
+    padding-top:10px;
+    width:20%;
+    text-align:center;
+}
+
+.navbaritem:hover {
+    background-color: #004166;
+    color: #fef7c9;
 }
