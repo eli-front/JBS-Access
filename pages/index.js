@@ -29,7 +29,7 @@ export default function Home() {
         <IconCard
           icon={ac_support}
           label="AC Support"
-          slug="AC Support"
+          slug="events/ac"
         ></IconCard>
         <IconCard
           icon={restroom}
