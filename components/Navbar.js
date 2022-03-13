@@ -7,8 +7,6 @@ export default function Navbar() {
     <>
       <div className={styles.navbar}>
         <Link href="/"><a className={styles.navbarname}>JBS Access</a></Link>
-        {/*<Link href="https://www.youtube.com"><a className={styles.navbaritem}>Page</a></Link>
-        <Link href="https://www.twitter.com"><a className={styles.navbaritem}>Page</a></Link>*/}
         <Link href="/about"><a className={styles.navbaritem}>About</a></Link> 
       </div>
     </>
