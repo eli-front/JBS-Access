@@ -14,6 +14,7 @@ export default function EventPage() {
 
   return (
     <Layout>
+      <h1>{event}</h1>
       {events.map((event, index) => {
         return (
           <Card
