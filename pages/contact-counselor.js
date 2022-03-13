@@ -11,6 +11,10 @@ export default function ContactCounselor() {
   function sendEmail(e) {
     e.preventDefault();
     setMessageSent(true);
+
+    // clear form
+    setName("");
+    setLocation("");
   }
   return (
     <Layout>
@@ -21,6 +25,7 @@ export default function ContactCounselor() {
           id="name"
           autoComplete="off"
           required
+          value={name}
           onChange={(e) => {
             setName(e.target.value);
           }}
@@ -31,6 +36,7 @@ export default function ContactCounselor() {
           id="location"
           autoComplete="off"
           required
+          value={location}
           onChange={(e) => {
             setLocation(e.target.value);
           }}
