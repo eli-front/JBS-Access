@@ -3,6 +3,14 @@
     color: orange;
 }
 
+
+.imageWrapper{
+    float: left;
+    margin-top: 20px; 
+    margin-left: 15px;
+
+}
+
 .button:hover {
    color: rgb(0, 0, 0);
    border-color: rgb(0, 0, 0);
@@ -21,26 +29,25 @@
    /*display:inline for horizontal buttons*/
    display:block;
    margin: auto;
-   width:97%;
+   width:90%;
+   cursor:pointer;
+   margin-bottom: 15px;
    
 }
 
-.image {
-
-    
-}
 
 #name {
 text-align: left;
 font-size: 200%;
-margin-left:15%;
+margin-left:90px;
 font-weight: bold;
 font-family:"cardo",serif;
+float:center;
 }
 
 #location {
 text-align: left;
-margin-left:15%;
+margin-left:90px;
 font-family:"cardo",serif;
 font-size:130%;
 
@@ -51,6 +58,6 @@ font-size:130%;
 #time{
 text-align: left;
 font-family:"cardo",serif;
-margin-left:15%;
+margin-left:90px;
 font-size:120%;
 }
