@@ -1,0 +1,68 @@
+
+.name {
+    color: orange;
+}
+
+
+.imageWrapper{
+    float: left;
+    margin-top: 20px; 
+    margin-left: 15px;
+
+}
+
+.button:hover {
+   border: 2px solid #0099ff;
+   color: #0099ff;
+   box-shadow: 0px 0px 10px #0099ff;
+}
+.button:hover img {
+    filter: invert(56%) sepia(69%) saturate(5481%) hue-rotate(183deg)
+      brightness(103%) contrast(103%);
+  }
+ 
+
+ 
+.button {
+   float:center;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   border: solid 2px rgb(0, 0, 0);
+   border-radius: 15px;
+   /*display:inline for horizontal buttons*/
+   display:block;
+   margin: auto;
+   width:90%;
+   cursor:pointer;
+   margin-bottom: 15px;
+   transition: box-shadow 0.2s ease-in-out;
+   
+}
+
+
+#name {
+text-align: left;
+font-size: 200%;
+margin-left:90px;
+font-weight: bold;
+font-family:"cardo",serif;
+float:center;
+}
+
+#location {
+text-align: left;
+margin-left:90px;
+font-family:"cardo",serif;
+font-size:130%;
+
+
+
+}
+
+#time{
+text-align: left;
+font-family:"cardo",serif;
+margin-left:90px;
+font-size:120%;
+}
