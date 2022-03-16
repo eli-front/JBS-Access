@@ -13,6 +13,7 @@ import emergency from "../public/icons/emergency.png";
 import counselor from "../public/icons/counselor.png";
 
 export default function Home() {
+
   return (
     <Layout>
       <section id={styles.icon_card_section}>
