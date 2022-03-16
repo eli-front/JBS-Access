@@ -2,7 +2,12 @@ import styles from "../../styles/DirectionCard.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function DirectionCard({ text, direction, directionImage }) {
+export default function DirectionCard({
+  text,
+  direction,
+  directionImage,
+  visual,
+}) {
   const [opened, setOpened] = useState(false);
 
   function toggle() {
@@ -12,15 +17,19 @@ export default function DirectionCard({ text, direction, directionImage }) {
     <div className={styles.direction_card}>
       <section>
         <div className={styles.main_card_section}>
-          <Image
-            src={directionImage}
-            width={50}
-            height={50}
-            alt="direction image"
-          ></Image>
+          <div className={styles.direction_arrow}>
+            <Image
+              src={directionImage}
+              width={50}
+              height={50}
+              alt="direction image"
+              layout="fixed"
+            ></Image>
+          </div>
+
           <div className={styles.text_section}>
-            <div className={styles.distance_from_next_dir}>{text}</div>
-            <div className="direction-card__direction">{direction}</div>
+            <div className={styles.bolded_header}>{direction}</div>
+            <div>{text}</div>
           </div>
         </div>
         <div
@@ -29,10 +38,13 @@ export default function DirectionCard({ text, direction, directionImage }) {
             opened ? styles.opened : ""
           }`}
         >
+          <span>visual</span>
           <i className={styles.chevron}></i>
         </div>
       </section>
-      <div className={opened ? styles.image_section : ""}></div>
+      <div className={opened ? styles.image_section : styles.closed}>
+        <Image src={visual} alt="visual"></Image>
+      </div>
     </div>
   );
 }
