@@ -1,0 +1,25 @@
+#header {
+  background-color: #5e7b21;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  z-index: 1;
+}
+
+#header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+}
+
+#header img {
+  opacity: 0.4;
+}
+
+#directions_container {
+}

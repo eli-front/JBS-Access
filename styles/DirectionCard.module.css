@@ -1,9 +1,16 @@
 .direction_card {
-  background-color: white;
-  border-radius: 15px;
-  border: 2px solid black;
+  /* background-color: white; */
+  border-bottom: 2px solid black;
   padding: 20px;
   margin: 15px 20px;
+  overflow: hidden;
+}
+
+.direction_arrow {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto 0;
 }
 
 .direction_card section {
@@ -16,7 +23,7 @@
   display: flex;
 }
 
-.distance_from_next_dir {
+.bolded_header {
   font-weight: 700;
 }
 
@@ -37,8 +44,8 @@
   transition: all 0.3s ease-out;
 }
 
-.opened .chevron {
-  color: cornflowerblue;
+.closed {
+  display: none;
 }
 
 .opened .chevron {
@@ -48,6 +55,7 @@
 
 .chevron_container:hover {
   cursor: pointer;
+  color: #00bcd4;
 }
 
 .chevron_container:hover .chevron {
@@ -55,10 +63,28 @@
 }
 
 .image_section {
-  height: 80px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image_section img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
   width: 100%;
 }
 
 .chevron_container {
   padding: 30px;
+  transition: 0.3s;
+  display: flex;
+  align-items: end;
+  width: 10em;
+}
+
+.chevron_container span {
+  padding-right: 10px;
 }
