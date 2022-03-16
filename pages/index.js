@@ -24,7 +24,7 @@ export default function Home() {
         <IconCard
           icon={counselor}
           label="Contact Counselor"
-          link="contact-counselor"
+          link="auth/contact-counselor"
         ></IconCard>
         <IconCard
           icon={club_meeting}
