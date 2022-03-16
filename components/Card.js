@@ -9,7 +9,7 @@ export default function Card({ name, location, time }) {
           <div className={styles.imageWrapper}>
       <Image src={locationMarker} width={60} height={60} ></Image>
           </div>
-        
+
         <p id={styles.name}>{name}</p>
         <p id={styles.location}>{location}</p>
         <p id={styles.time}>{time}</p>

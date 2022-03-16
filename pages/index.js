@@ -29,7 +29,7 @@ export default function Home() {
         <IconCard
           icon={club_meeting}
           label="Club Meetings"
-          link="events/clubs"
+          link="clubs"
         ></IconCard>
         <IconCard icon={art} label="Art Events" link="events/art"></IconCard>
         <IconCard
