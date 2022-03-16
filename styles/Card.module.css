@@ -1,0 +1,56 @@
+
+.name {
+    color: orange;
+}
+
+.button:hover {
+   color: rgb(0, 0, 0);
+   border-color: rgb(0, 0, 0);
+   background-color: rgb(248, 248, 248);
+}
+ 
+
+ 
+.button {
+   float:center;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   border: solid 2px rgb(0, 0, 0);
+   border-radius: 15px;
+   /*display:inline for horizontal buttons*/
+   display:block;
+   margin: auto;
+   width:97%;
+   
+}
+
+.image {
+
+    
+}
+
+#name {
+text-align: left;
+font-size: 200%;
+margin-left:15%;
+font-weight: bold;
+font-family:"cardo",serif;
+}
+
+#location {
+text-align: left;
+margin-left:15%;
+font-family:"cardo",serif;
+font-size:130%;
+
+
+
+}
+
+#time{
+text-align: left;
+font-family:"cardo",serif;
+margin-left:15%;
+font-size:120%;
+}
