@@ -11,10 +11,9 @@ export default function EventPage() {
     new Event("Varsity Water Polo vs Parkway Central", "4:30 pm", "Natatorium"),
     new Event("Girls JV Soccer vs Lindbergh", "5:15 pm", "Beckman Field"),
   ];
-
   return (
     <Layout>
-      <h1>{event}</h1>
+      <h1>Sports</h1>
       {events.map((event, index) => {
         return (
           <Card
