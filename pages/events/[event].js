@@ -6,6 +6,9 @@ import Event from "../../lib/Event";
 export default function EventPage() {
   const router = useRouter();
   const { event } = router.query;
+
+  console.log(router.query);
+
   const events = [
     new Event("Boys Varsity Lacrosse vs CBC", "4:30 pm", "Leland Field"),
     new Event("Varsity Water Polo vs Parkway Central", "4:30 pm", "Natatorium"),
