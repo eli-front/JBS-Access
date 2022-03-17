@@ -18,6 +18,7 @@ export default function ContactCounselor() {
   }
   return (
     <Layout>
+      <div id={styles.header_message}>Contact Counselor</div>
       <form id={styles.contact_form} onSubmit={sendEmail}>
         <label>What&apos;s your name?</label>
         <input

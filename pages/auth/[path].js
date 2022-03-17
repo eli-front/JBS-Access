@@ -24,6 +24,7 @@ export default function Login() {
 
     return (
        <Layout>
+        <div id={styles.header_message}>Authenticate</div>
         <form id={styles.contact_form} onSubmit={sendEmail}>
             <label>Student ID:</label>
             <input

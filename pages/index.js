@@ -35,7 +35,7 @@ export default function Home() {
         <IconCard
           icon={ac_support}
           label="AC Support"
-          link="events/ac"
+          link="auth/ac"
         ></IconCard>
         <IconCard
           icon={restroom}
