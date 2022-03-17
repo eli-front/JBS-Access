@@ -6,6 +6,9 @@ import Event from "../../lib/Event";
 export default function EventPage() {
   const router = useRouter();
   const { event } = router.query;
+
+  console.log(router.query);
+
   const events = [
     new Event("Boys Varsity Lacrosse vs CBC", "4:30 pm", "Leland Field"),
     new Event("Varsity Water Polo vs Parkway Central", "4:30 pm", "Natatorium"),
@@ -15,10 +18,9 @@ export default function EventPage() {
     new Event("Girls Varsity Track", "4:00 pm", "Keefer Track"),
     new Event("Girls JV Lacrosse vs Cor Jesu", "5:30 pm", "Lacrosse Field"),
   ];
-
   return (
     <Layout>
-      <h1>{event}</h1>
+      <h1>Sports</h1>
       {events.map((event, index) => {
         return (
           <Card

@@ -1,0 +1,64 @@
+.direction_card {
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 15px 20px;
+}
+
+.direction_card section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_card_section {
+  display: flex;
+}
+
+.distance_from_next_dir {
+  font-weight: 700;
+}
+
+.text_section {
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.chevron {
+  display: inline-block;
+  vertical-align: top;
+  width: 14px;
+  height: 14px;
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  transform: rotate(-135deg);
+  margin-top: 6px;
+  transition: all 0.3s ease-out;
+}
+
+.opened .chevron {
+  color: cornflowerblue;
+}
+
+.opened .chevron {
+  transform: rotate(-45deg);
+  margin-top: 4px;
+}
+
+.chevron_container:hover {
+  cursor: pointer;
+}
+
+.chevron_container:hover .chevron {
+  color: #00bcd4;
+}
+
+.image_section {
+  height: 80px;
+  width: 100%;
+}
+
+.chevron_container {
+  padding: 30px;
+}

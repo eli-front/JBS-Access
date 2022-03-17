@@ -13,6 +13,10 @@ import emergency from "../public/icons/emergency.png";
 import counselor from "../public/icons/counselor.png";
 
 export default function Home() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01f0211c8521a512c672b698ca23de4959432391
   return (
     <Layout>
       <section id={styles.icon_card_section}>
@@ -24,12 +28,12 @@ export default function Home() {
         <IconCard
           icon={counselor}
           label="Contact Counselor"
-          link="contact-counselor"
+          link="auth/contact-counselor"
         ></IconCard>
         <IconCard
           icon={club_meeting}
           label="Club Meetings"
-          link="events/clubs"
+          link="clubs"
         ></IconCard>
         <IconCard icon={art} label="Art Events" link="events/art"></IconCard>
         <IconCard
